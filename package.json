@@ -1,0 +1,6 @@
+ "scripts": {
+    "test": "jest",
+    "test:unit": "jest client/src/tests/unit",
+    "test:integration": "jest server/tests/integration",
+    "test:e2e": "cypress open",
+}

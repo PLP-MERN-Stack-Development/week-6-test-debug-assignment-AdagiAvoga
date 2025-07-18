@@ -86,3 +86,34 @@ Your work will be automatically submitted when you push to your GitHub Classroom
 - [Supertest Documentation](https://github.com/visionmedia/supertest)
 - [Cypress Documentation](https://docs.cypress.io/)
 - [MongoDB Testing Best Practices](https://www.mongodb.com/blog/post/mongodb-testing-best-practices) 
+
+# Week 6 - MERN Testing & Debugging Assignment
+## Tools Used
+- Jest
+- React Testing Library
+- Supertest
+- Cypress
+
+##  Tests
+- Unit tests in `client/src/tests/unit/` and `server/tests/unit/`
+- Integration tests in `server/tests/integration/`
+- End-to-end tests in `cypress/e2e/`
+
+## Debugging
+- Error boundaries added in React
+- Global error handler in Express
+- Used browser dev tools and console logs
+
+## How to Run
+```bash
+# Run all tests
+pnpm test
+
+# Unit tests
+pnpm run test:unit
+
+# Integration tests
+pnpm run test:integration
+
+# Open Cypress for E2E
+pnpm run test:e2e
